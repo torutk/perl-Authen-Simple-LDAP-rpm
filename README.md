@@ -14,22 +14,25 @@ Install required rpm packagesi for build
 
 ### CentOS 7 ###
 
-- CentOS standard
-  perl-Class-Data-Inheritable
-  perl-Crypt-PasswdMD5
-  perl-ExtUtils-MakeMaker
-  perl-LDAP
-  perl-Module-Implementation
-  perl-Params-Validate
-  perl-Test-Fatal
-  perl-Test-Requires
-  perl-Try-Tiny
+* CentOS standard
+
+    perl-Class-Data-Inheritable
+    perl-Crypt-PasswdMD5
+    perl-ExtUtils-MakeMaker
+    perl-LDAP
+    perl-Module-Implementation
+    perl-Params-Validate
+    perl-Test-Fatal
+    perl-Test-Requires
+    perl-Try-Tiny
 
 - EPEL
-  perl-Authen-Simple
-  perl-Class-Accessor
+
+    perl-Authen-Simple
+    perl-Class-Accessor
 
 - Download perl-Authen-Simple-LDAP module tar ball.
+
 http://search.cpan.org/CPAN/authors/id/C/CH/CHANSEN/Authen-Simple-LDAP-0.3.tar.gz
 
 Then, copy rpmbuild's SOURCE directory.
@@ -37,5 +40,6 @@ Then, copy rpmbuild's SOURCE directory.
 How to build
 ------------
 
+```
 ~$ rpmbuild -ba rpm/SPECS/perl-Authen-Simple-LDAP.spec
-
+```
